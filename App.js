@@ -20,3 +20,9 @@ function clickHandler() {
         .catch(errorHandler)
 
 }
+
+var serverURL = "https://api.funtranslations.com/translate/minion.json";
+
+function getTranslationURL(inputText) {
+    return serverURL + "?" + "text=" + inputText;
+}
