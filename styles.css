@@ -77,8 +77,9 @@ body{
 }
 
 #btn-translate:hover{
-        background-color:skyblue;
-        color: var(--primary-color);
+        background-color:#93C5FD;
+        color: #1D4ED8;
+        border: 2px solid #3b64d3;;
         
 
 }
